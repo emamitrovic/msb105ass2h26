@@ -53,16 +53,20 @@ Incremental point list
 - neste
 :::
 
-## Second slide
+## Why might this be relevant for us?
 
-Some text first. Then whole list
+TidyTuesday gives us a practical way to develop important data science
+skills.
 
-::: fragment
-- 1
-  1.  en
-  2.  to
-  3.  tre
-- 2
+::: incremental
+- Practice with real-world data
+  1.  Work with datasets from different topics
+  2.  Deal with data that is not always perfectly prepared
+- Develop important data science skills
+- Learn from others
+  1.  Compare different solutions
+  2.  Discover new methods and visualization ideas
+  3.  See that the same dataset can be analysed in many ways
 :::
 
 ## Two columns slide; first incremental
@@ -120,3 +124,5 @@ Som text after point list.
 ## Conclusions
 
 ## References
+
+::::::::::::
