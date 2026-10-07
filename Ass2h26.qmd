@@ -34,6 +34,7 @@ editor_options:
     wrap: 72
     canonical: true
     chunk_output_type: console
+bibliography: [Ass2h26.bib]
 abstract: |
   A short abstract describing the content of the presentation. This will only appear in the `typst` and `html document` version.
 echo: true
@@ -49,6 +50,10 @@ Weekly social data project
 - new dataset every Monday
 - open for everyone
 - #TidyTuesday
+:::
+
+::: footer
+Source: [@RfordatascienceTidytuesday2026]
 :::
 
 ## Second slide
@@ -101,6 +106,10 @@ book_counts |>
 ```
 :::
 ::::::
+
+::: footer
+Source: [@ponceBiblicalCanonTells2026]
+:::
 
 ## Two columns slide; both incremental
 
