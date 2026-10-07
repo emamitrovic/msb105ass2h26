@@ -81,6 +81,8 @@ Example: Dead Sea Scrolls manuscripts
 #| echo: false
 #| message: false
 #| warning: false
+#| fig-width: 5
+#| fig-height: 5 
 library(tidyverse)
 
 tt <- tidytuesdayR::tt_load(2026, week = 37)
