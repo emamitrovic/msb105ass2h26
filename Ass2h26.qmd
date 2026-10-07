@@ -34,6 +34,7 @@ editor_options:
     wrap: 72
     canonical: true
     chunk_output_type: console
+bibliography: [myrefs.bib]
 abstract: |
   A short abstract describing the content of the presentation. This will only appear in the `typst` and `html document` version.
 echo: true
@@ -58,16 +59,20 @@ Incremental point list
 TidyTuesday gives us a practical way to develop important data science
 skills.
 
-::: incremental
+:::: incremental
 - Practice with real-world data
-  1.  Work with datasets from different topics
-  2.  Deal with data that is not always perfectly prepared
+  1.  Data wrangling
+  2.  Data visualization
 - Develop important data science skills
 - Learn from others
   1.  Compare different solutions
   2.  Discover new methods and visualization ideas
   3.  See that the same dataset can be analysed in many ways
+
+::: footer
+@arroyo2022
 :::
+::::
 
 ## Two columns slide; first incremental
 
