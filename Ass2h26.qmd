@@ -41,7 +41,7 @@ eval: true
 # Feel free to add more stash
 ---
 
-## What is TidyTuesday? 
+## What is TidyTuesday?
 
 Weekly social data project
 
@@ -63,27 +63,40 @@ Some text first. Then whole list
 - 2
 :::
 
-## Two columns slide; first incremental
+## Dead Sea Scrolls Manuscripts
 
 :::::: columns
 :::: {.column .fragment width="50%"}
-Some text
+Example: Dead Sea Scrolls manuscripts
 
 ::: incremental
-- one
-  1.  en
-  2.  to
-  3.  tre
-- neste
+- Data: catalog of Dead Sea Scrolls manuscripts
+- Question: which works have the most manuscripts?
+- Finding: 1 Enoch has as many manuscripts as Genesis (24 each)
 :::
 ::::
 
 ::: {.column .fragment width="50%"}
-- 1
-  1.  en
-  2.  to
-  3.  tre
-- 2
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+library(tidyverse)
+
+tt <- tidytuesdayR::tt_load(2026, week = 37)
+dead_sea_scrolls <- tt$dead_sea_scrolls
+
+book_counts <- dead_sea_scrolls |>
+  filter(!is.na(biblical_book)) |>
+  count(biblical_book, canon_status, name = "n_manuscripts", sort = TRUE)
+
+book_counts |>
+  filter(n_manuscripts >= 16) |>
+  mutate(biblical_book = fct_reorder(biblical_book, n_manuscripts)) |>
+  ggplot(aes(x = n_manuscripts, y = biblical_book)) +
+  geom_point(size = 3) +
+  labs(x = "Number of manuscripts", y = NULL)
+```
 :::
 ::::::
 
