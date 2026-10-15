@@ -42,24 +42,12 @@ eval: true
 # Feel free to add more stash
 ---
 
-## First slide
-
-Incremental point list
-
-::: incremental
-- one
-  1.  en
-  2.  to
-  3.  tre
-- neste
-:::
-
 ## Why might this be relevant for us?
 
 TidyTuesday gives us a practical way to develop important data science
-skills.
+skills [@arroyo2022].
 
-:::: incremental
+::: incremental
 - Practice with real-world data
   1.  Data wrangling
   2.  Data visualization
@@ -68,11 +56,7 @@ skills.
   1.  Compare different solutions
   2.  Discover new methods and visualization ideas
   3.  See that the same dataset can be analysed in many ways
-
-::: footer
-@arroyo2022
 :::
-::::
 
 ## How to participate in TidyTuesday
 
@@ -83,6 +67,7 @@ skills.
   3.  See dataset and tables
 :::
 
+::: fragment
 ```{r}
 #| eval: false
 install.packages("tidytuesdayR")  # bare første gang
@@ -108,43 +93,11 @@ summary(df)
 Make for example a figure with ggplot, an analysis, model or Quarto
 report, and share the result and your code on social media with the
 #TidyTuesday hashtag
-
-## Two columns slide; first incremental
-
-:::::: columns
-:::: {.column .fragment width="50%"}
-Some text
-
-::: incremental
-- one
-  1.  en
-  2.  to
-  3.  tre
-- neste
 :::
-::::
-
-::: {.column .fragment width="50%"}
-- 1
-  1.  en
-  2.  to
-  3.  tre
-- 2
-:::
-::::::
 
 ## Country music lyrics
 
-::::::: columns
-:::: {.column .incremental width="50%"}
-::: fragment
-Example analysis of a TidyTuesday dataset
-:::
-
-## Global Health Spending
-
-- Country music lyrics dataset
-
+- Country music lyrics dataset [@ponce2026]
   1.  Includes lyrics, artists and producers
   2.  This analysis focus on producers
   3.  Lines connect producers and artists
@@ -152,25 +105,16 @@ Example analysis of a TidyTuesday dataset
   5.  Dan Huff: 59 songs, 17 artist (broadest network)
   6.  Some producers mainly work with one artist
   7.  Shows hos one dataset can answer different questions
-::::
 
-::: {.column .incremental width="50%"}
+## Example analysis of a TidyTuesday dataset
+
 ```{r}
-#| echo: false
 #| warning: false
 #| message: false
-#| fig-width: 10
-#| fig-height: 7
+#| fig-width: 20
+#| fig-height: 10
 #| out-width: "100%"
-
-library(tidyverse)
-
-# resten av koden
-#| warning: false
-#| message: false
-#| fig-width: 11
-#| fig-height: 8
-#| out-width: "100%"
+#| output-location: slide
 
 library(tidyverse)
 
@@ -285,34 +229,28 @@ ggplot(producer_data) +
     plot.margin = margin(20, 80, 20, 120)
   )
 ```
-:::
 
-::: footer
-[@ponce2026]
-:::
-:::::::
+## WHO Global Health Expenditure Database
 
-## Two columns slide; both incremental
-
-:::::::: columns
-:::: {.column .incremental width="50%"}
 ::: fragment
 WHO Global Health Expenditure Database (TidyTuesday 2026, week 16)
 :::
 
+::: fragment
 - What the dataset is about
   1.  Health spending in 195 countries, 2000-2023
   2.  Who pays for health care: government, households or foreign aid
 - How it can be analysed
   1.  Scatter plot: government spending vs. what people pay themselves
   2.  Do people pay more when the government spends less?
-::::
+:::
 
-::::: {.column .incremental width="50%"}
+## WHO Global Health Expenditure Database
+
 ```{r}
-#| echo: false
-#| fig-width: 12
-#| fig-height: 6
+#| fig-width: 20
+#| fig-height: 10
+#| output-location: slide
 
 library(tidyverse)
 library(scales)
@@ -411,15 +349,8 @@ p_scatter + p_trend +
 ```
 
 ::: fragment
-Ponce (2026) finds that households pay more where governments spend
-less.
+@ponce2026 finds that households pay more where governments spend less.
 :::
-
-::: footer
-@ponce2026
-:::
-:::::
-::::::::
 
 ## Conclusions
 

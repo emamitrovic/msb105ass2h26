@@ -6,8 +6,8 @@
 <script src="Ass2h26_files/libs/quarto-html/tippy.umd.min.js"></script>
 <link href="Ass2h26_files/libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="Ass2h26_files/libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="Ass2h26_files/libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.9.38">
+<link href="Ass2h26_files/libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.8.25">
 
   <meta name="author" content="Group 5; Maa, Em and Mfe">
   <title>Have you heard about TidyTuesday?</title>
@@ -17,9 +17,6 @@
   <link rel="stylesheet" href="Ass2h26_files/libs/revealjs/dist/reset.css">
   <link rel="stylesheet" href="Ass2h26_files/libs/revealjs/dist/reveal.css">
   <style>
-    /* Default styles provided by pandoc.
-    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
-    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
     div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -101,6 +98,7 @@
     div.csl-bib-body { }
     div.csl-entry {
       clear: both;
+      margin-bottom: 0em;
     }
     .hanging-indent div.csl-entry {
       margin-left:2em;
@@ -117,7 +115,7 @@
     div.csl-indent {
       margin-left: 2em;
     }  </style>
-  <link rel="stylesheet" href="Ass2h26_files/libs/revealjs/dist/theme/quarto-0427d8d92a431aa6a6430e53ec02a470.css">
+  <link rel="stylesheet" href="Ass2h26_files/libs/revealjs/dist/theme/quarto-0fde88a82f0356838740f155f1088782.css">
   <link href="Ass2h26_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="Ass2h26_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="Ass2h26_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -229,22 +227,9 @@ Group 5; Maa, Em and Mfe
 </div>
 
 </section>
-<section id="first-slide" class="slide level2">
-<h2>First slide</h2>
-<p>Incremental point list</p>
-<ul>
-<li class="fragment">one
-<ol type="1">
-<li class="fragment">en</li>
-<li class="fragment">to</li>
-<li class="fragment">tre</li>
-</ol></li>
-<li class="fragment">neste</li>
-</ul>
-</section>
 <section id="why-might-this-be-relevant-for-us" class="slide level2">
 <h2>Why might this be relevant for us?</h2>
-<p>TidyTuesday gives us a practical way to develop important data science skills.</p>
+<p>TidyTuesday gives us a practical way to develop important data science skills <span class="citation" data-cites="arroyo2022">(<a href="#/references" role="doc-biblioref" onclick="">Arroyo 2022</a>)</span>.</p>
 <ul>
 <li class="fragment">Practice with real-world data
 <ol type="1">
@@ -259,9 +244,6 @@ Group 5; Maa, Em and Mfe
 <li class="fragment">See that the same dataset can be analysed in many ways</li>
 </ol></li>
 </ul>
-<div class="footer">
-<p><span class="citation" data-cites="arroyo2022">Arroyo (<a href="#/references" role="doc-biblioref" onclick="">2022</a>)</span></p>
-</div>
 </section>
 <section id="how-to-participate-in-tidytuesday" class="slide level2">
 <h2>How to participate in TidyTuesday</h2>
@@ -275,6 +257,7 @@ Group 5; Maa, Em and Mfe
 </ol></li>
 </ul>
 </div>
+<div class="fragment">
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href=""></a><span class="fu">install.packages</span>(<span class="st">"tidytuesdayR"</span>)  <span class="co"># bare første gang</span></span>
 <span id="cb1-2"><a href=""></a><span class="fu">library</span>(tidytuesdayR)</span>
@@ -292,54 +275,142 @@ Group 5; Maa, Em and Mfe
 <span id="cb3-4"><a href=""></a><span class="fu">summary</span>(df)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p>Make for example a figure with ggplot, an analysis, model or Quarto report, and share the result and your code on social media with the #TidyTuesday hashtag</p>
-</section>
-<section id="two-columns-slide-first-incremental" class="slide level2">
-<h2>Two columns slide; first incremental</h2>
-<div class="columns">
-<div class="column fragment" style="width:50%;">
-<p>Some text</p>
-<ul>
-<li class="fragment">one
-<ol type="1">
-<li class="fragment">en</li>
-<li class="fragment">to</li>
-<li class="fragment">tre</li>
-</ol></li>
-<li class="fragment">neste</li>
-</ul>
-</div><div class="column fragment" style="width:50%;">
-<ul>
-<li>1
-<ol type="1">
-<li>en</li>
-<li>to</li>
-<li>tre</li>
-</ol></li>
-<li>2</li>
-</ul>
-</div></div>
+</div>
 </section>
 <section id="country-music-lyrics" class="slide level2">
 <h2>Country music lyrics</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<div class="fragment">
-<p>Example analysis of a TidyTuesday dataset</p>
-</div>
 <ul>
-<li class="fragment"><p>Country music lyrics dataset</p>
+<li>Country music lyrics dataset <span class="citation" data-cites="ponce2026">(<a href="#/references" role="doc-biblioref" onclick="">Ponce 2026</a>)</span>
 <ol type="1">
-<li class="fragment">Includes lyrics, artists and producers</li>
-<li class="fragment">This analysis focus on producers</li>
-<li class="fragment">Lines connect producers and artists</li>
-<li class="fragment">Thicker lines means more songs together</li>
-<li class="fragment">Dan Huff: 59 songs, 17 artist (broadest network)</li>
-<li class="fragment">Some producers mainly work with one artist</li>
-<li class="fragment">Shows hos one dataset can answer different questions</li>
+<li>Includes lyrics, artists and producers</li>
+<li>This analysis focus on producers</li>
+<li>Lines connect producers and artists</li>
+<li>Thicker lines means more songs together</li>
+<li>Dan Huff: 59 songs, 17 artist (broadest network)</li>
+<li>Some producers mainly work with one artist</li>
+<li>Shows hos one dataset can answer different questions</li>
 </ol></li>
 </ul>
-</div><div class="column" style="width:50%;">
+</section>
+<section id="example-analysis-of-a-tidytuesday-dataset" class="slide level2">
+<h2>Example analysis of a TidyTuesday dataset</h2>
 <div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href=""></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb4-2"><a href=""></a></span>
+<span id="cb4-3"><a href=""></a><span class="co"># Load data</span></span>
+<span id="cb4-4"><a href=""></a>country_lyrics <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(</span>
+<span id="cb4-5"><a href=""></a>  <span class="st">"https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-08-25/country_lyrics.csv"</span>,</span>
+<span id="cb4-6"><a href=""></a>  <span class="at">show_col_types =</span> <span class="cn">FALSE</span></span>
+<span id="cb4-7"><a href=""></a>)</span>
+<span id="cb4-8"><a href=""></a></span>
+<span id="cb4-9"><a href=""></a><span class="co"># Select producers</span></span>
+<span id="cb4-10"><a href=""></a>selected_producers <span class="ot">&lt;-</span> <span class="fu">c</span>(</span>
+<span id="cb4-11"><a href=""></a>  <span class="st">"Michael Knox"</span>,</span>
+<span id="cb4-12"><a href=""></a>  <span class="st">"Jeff Stevens"</span>,</span>
+<span id="cb4-13"><a href=""></a>  <span class="st">"Byron Gallimore"</span>,</span>
+<span id="cb4-14"><a href=""></a>  <span class="st">"Ross Copperman"</span>,</span>
+<span id="cb4-15"><a href=""></a>  <span class="st">"Jay Joyce"</span>,</span>
+<span id="cb4-16"><a href=""></a>  <span class="st">"Dann Huff"</span></span>
+<span id="cb4-17"><a href=""></a>)</span>
+<span id="cb4-18"><a href=""></a></span>
+<span id="cb4-19"><a href=""></a><span class="co"># Clean and summarise data</span></span>
+<span id="cb4-20"><a href=""></a>producer_data <span class="ot">&lt;-</span> country_lyrics <span class="sc">|&gt;</span></span>
+<span id="cb4-21"><a href=""></a>  <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(producer)) <span class="sc">|&gt;</span></span>
+<span id="cb4-22"><a href=""></a>  <span class="fu">separate_longer_delim</span>(producer, <span class="at">delim =</span> <span class="st">","</span>) <span class="sc">|&gt;</span></span>
+<span id="cb4-23"><a href=""></a>  <span class="fu">mutate</span>(<span class="at">producer =</span> <span class="fu">str_squish</span>(producer)) <span class="sc">|&gt;</span></span>
+<span id="cb4-24"><a href=""></a>  <span class="fu">filter</span>(producer <span class="sc">%in%</span> selected_producers) <span class="sc">|&gt;</span></span>
+<span id="cb4-25"><a href=""></a>  <span class="fu">count</span>(producer, artist, <span class="at">name =</span> <span class="st">"number_of_songs"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb4-26"><a href=""></a>  <span class="fu">group_by</span>(producer) <span class="sc">|&gt;</span></span>
+<span id="cb4-27"><a href=""></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(number_of_songs), artist, <span class="at">.by_group =</span> <span class="cn">TRUE</span>) <span class="sc">|&gt;</span></span>
+<span id="cb4-28"><a href=""></a>  <span class="fu">mutate</span>(</span>
+<span id="cb4-29"><a href=""></a>    <span class="at">artist_position =</span> <span class="fu">row_number</span>(),</span>
+<span id="cb4-30"><a href=""></a>    <span class="at">producer_position =</span> (<span class="fu">n</span>() <span class="sc">+</span> <span class="dv">1</span>) <span class="sc">/</span> <span class="dv">2</span></span>
+<span id="cb4-31"><a href=""></a>  ) <span class="sc">|&gt;</span></span>
+<span id="cb4-32"><a href=""></a>  <span class="fu">ungroup</span>()</span>
+<span id="cb4-33"><a href=""></a></span>
+<span id="cb4-34"><a href=""></a><span class="co"># Producer labels and totals</span></span>
+<span id="cb4-35"><a href=""></a>producer_summary <span class="ot">&lt;-</span> producer_data <span class="sc">|&gt;</span></span>
+<span id="cb4-36"><a href=""></a>  <span class="fu">group_by</span>(producer) <span class="sc">|&gt;</span></span>
+<span id="cb4-37"><a href=""></a>  <span class="fu">summarise</span>(</span>
+<span id="cb4-38"><a href=""></a>    <span class="at">producer_position =</span> <span class="fu">first</span>(producer_position),</span>
+<span id="cb4-39"><a href=""></a>    <span class="at">total_songs =</span> <span class="fu">sum</span>(number_of_songs),</span>
+<span id="cb4-40"><a href=""></a>    <span class="at">number_of_artists =</span> <span class="fu">n_distinct</span>(artist),</span>
+<span id="cb4-41"><a href=""></a>    <span class="at">.groups =</span> <span class="st">"drop"</span></span>
+<span id="cb4-42"><a href=""></a>  ) <span class="sc">|&gt;</span></span>
+<span id="cb4-43"><a href=""></a>  <span class="fu">mutate</span>(</span>
+<span id="cb4-44"><a href=""></a>    <span class="at">label =</span> <span class="fu">paste0</span>(</span>
+<span id="cb4-45"><a href=""></a>      producer, <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>,</span>
+<span id="cb4-46"><a href=""></a>      total_songs, <span class="st">" songs across "</span>,</span>
+<span id="cb4-47"><a href=""></a>      number_of_artists, <span class="st">" artists"</span></span>
+<span id="cb4-48"><a href=""></a>    )</span>
+<span id="cb4-49"><a href=""></a>  )</span>
+<span id="cb4-50"><a href=""></a></span>
+<span id="cb4-51"><a href=""></a><span class="co"># Create the figure</span></span>
+<span id="cb4-52"><a href=""></a><span class="fu">ggplot</span>(producer_data) <span class="sc">+</span></span>
+<span id="cb4-53"><a href=""></a>  <span class="fu">geom_curve</span>(</span>
+<span id="cb4-54"><a href=""></a>    <span class="fu">aes</span>(</span>
+<span id="cb4-55"><a href=""></a>      <span class="at">x =</span> <span class="dv">0</span>,</span>
+<span id="cb4-56"><a href=""></a>      <span class="at">y =</span> producer_position,</span>
+<span id="cb4-57"><a href=""></a>      <span class="at">xend =</span> <span class="dv">1</span>,</span>
+<span id="cb4-58"><a href=""></a>      <span class="at">yend =</span> artist_position,</span>
+<span id="cb4-59"><a href=""></a>      <span class="at">linewidth =</span> number_of_songs</span>
+<span id="cb4-60"><a href=""></a>    ),</span>
+<span id="cb4-61"><a href=""></a>    <span class="at">curvature =</span> <span class="fl">0.25</span>,</span>
+<span id="cb4-62"><a href=""></a>    <span class="at">colour =</span> <span class="st">"#70405D"</span>,</span>
+<span id="cb4-63"><a href=""></a>    <span class="at">alpha =</span> <span class="fl">0.7</span></span>
+<span id="cb4-64"><a href=""></a>  ) <span class="sc">+</span></span>
+<span id="cb4-65"><a href=""></a>  <span class="fu">geom_point</span>(</span>
+<span id="cb4-66"><a href=""></a>    <span class="at">data =</span> producer_summary,</span>
+<span id="cb4-67"><a href=""></a>    <span class="fu">aes</span>(<span class="at">x =</span> <span class="dv">0</span>, <span class="at">y =</span> producer_position),</span>
+<span id="cb4-68"><a href=""></a>    <span class="at">size =</span> <span class="dv">3</span>,</span>
+<span id="cb4-69"><a href=""></a>    <span class="at">colour =</span> <span class="st">"#70405D"</span></span>
+<span id="cb4-70"><a href=""></a>  ) <span class="sc">+</span></span>
+<span id="cb4-71"><a href=""></a>  <span class="fu">geom_point</span>(</span>
+<span id="cb4-72"><a href=""></a>    <span class="fu">aes</span>(<span class="at">x =</span> <span class="dv">1</span>, <span class="at">y =</span> artist_position),</span>
+<span id="cb4-73"><a href=""></a>    <span class="at">size =</span> <span class="dv">2</span>,</span>
+<span id="cb4-74"><a href=""></a>    <span class="at">colour =</span> <span class="st">"#70405D"</span></span>
+<span id="cb4-75"><a href=""></a>  ) <span class="sc">+</span></span>
+<span id="cb4-76"><a href=""></a>  <span class="fu">geom_text</span>(</span>
+<span id="cb4-77"><a href=""></a>    <span class="at">data =</span> producer_summary,</span>
+<span id="cb4-78"><a href=""></a>    <span class="fu">aes</span>(<span class="at">x =</span> <span class="sc">-</span><span class="fl">0.05</span>, <span class="at">y =</span> producer_position, <span class="at">label =</span> label),</span>
+<span id="cb4-79"><a href=""></a>    <span class="at">hjust =</span> <span class="dv">1</span>,</span>
+<span id="cb4-80"><a href=""></a>    <span class="at">fontface =</span> <span class="st">"bold"</span>,</span>
+<span id="cb4-81"><a href=""></a>    <span class="at">size =</span> <span class="dv">3</span></span>
+<span id="cb4-82"><a href=""></a>  ) <span class="sc">+</span></span>
+<span id="cb4-83"><a href=""></a>  <span class="fu">geom_text</span>(</span>
+<span id="cb4-84"><a href=""></a>    <span class="fu">aes</span>(<span class="at">x =</span> <span class="fl">1.05</span>, <span class="at">y =</span> artist_position, <span class="at">label =</span> artist),</span>
+<span id="cb4-85"><a href=""></a>    <span class="at">hjust =</span> <span class="dv">0</span>,</span>
+<span id="cb4-86"><a href=""></a>    <span class="at">size =</span> <span class="fl">2.7</span></span>
+<span id="cb4-87"><a href=""></a>  ) <span class="sc">+</span></span>
+<span id="cb4-88"><a href=""></a>  <span class="fu">facet_wrap</span>(<span class="sc">~</span> producer, <span class="at">ncol =</span> <span class="dv">2</span>, <span class="at">scales =</span> <span class="st">"free_y"</span>) <span class="sc">+</span></span>
+<span id="cb4-89"><a href=""></a>  <span class="fu">scale_linewidth_continuous</span>(</span>
+<span id="cb4-90"><a href=""></a>    <span class="at">range =</span> <span class="fu">c</span>(<span class="fl">0.3</span>, <span class="dv">3</span>),</span>
+<span id="cb4-91"><a href=""></a>    <span class="at">name =</span> <span class="st">"Songs produced</span><span class="sc">\n</span><span class="st">together"</span></span>
+<span id="cb4-92"><a href=""></a>  ) <span class="sc">+</span></span>
+<span id="cb4-93"><a href=""></a>  <span class="fu">coord_cartesian</span>(</span>
+<span id="cb4-94"><a href=""></a>    <span class="at">xlim =</span> <span class="fu">c</span>(<span class="sc">-</span><span class="fl">0.6</span>, <span class="fl">1.6</span>),</span>
+<span id="cb4-95"><a href=""></a>    <span class="at">clip =</span> <span class="st">"off"</span></span>
+<span id="cb4-96"><a href=""></a>  ) <span class="sc">+</span></span>
+<span id="cb4-97"><a href=""></a>  <span class="fu">labs</span>(</span>
+<span id="cb4-98"><a href=""></a>    <span class="at">title =</span> <span class="st">"Some country producers stick with one artist"</span>,</span>
+<span id="cb4-99"><a href=""></a>    <span class="at">subtitle =</span> <span class="st">"Others work across the genre"</span>,</span>
+<span id="cb4-100"><a href=""></a>    <span class="at">caption =</span> <span class="st">"Source: TidyTuesday – Country Music Lyrics"</span></span>
+<span id="cb4-101"><a href=""></a>  ) <span class="sc">+</span></span>
+<span id="cb4-102"><a href=""></a>  <span class="fu">theme_void</span>() <span class="sc">+</span></span>
+<span id="cb4-103"><a href=""></a>  <span class="fu">theme</span>(</span>
+<span id="cb4-104"><a href=""></a>    <span class="at">plot.title =</span> <span class="fu">element_text</span>(</span>
+<span id="cb4-105"><a href=""></a>      <span class="at">size =</span> <span class="dv">20</span>,</span>
+<span id="cb4-106"><a href=""></a>      <span class="at">face =</span> <span class="st">"bold"</span></span>
+<span id="cb4-107"><a href=""></a>    ),</span>
+<span id="cb4-108"><a href=""></a>    <span class="at">plot.subtitle =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">13</span>),</span>
+<span id="cb4-109"><a href=""></a>    <span class="at">strip.text =</span> <span class="fu">element_blank</span>(),</span>
+<span id="cb4-110"><a href=""></a>    <span class="at">legend.position =</span> <span class="st">"bottom"</span>,</span>
+<span id="cb4-111"><a href=""></a>    <span class="at">plot.margin =</span> <span class="fu">margin</span>(<span class="dv">20</span>, <span class="dv">80</span>, <span class="dv">20</span>, <span class="dv">120</span>)</span>
+<span id="cb4-112"><a href=""></a>  )</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+
+</section>
+<section id="example-analysis-of-a-tidytuesday-dataset-output" class="slide level2 output-location-slide"><h2>Example analysis of a TidyTuesday dataset</h2><div class="cell output-location-slide">
 <div class="cell-output-display">
 <div>
 <figure>
@@ -347,56 +418,138 @@ Group 5; Maa, Em and Mfe
 </figure>
 </div>
 </div>
-</div>
-<<<<<<< HEAD
-</div></div>
-<div class="footer">
-<p>Source: <span class="citation" data-cites="ponceBiblicalCanonTells2026">(<a href="#/references" role="doc-biblioref" onclick="">Ponce 2026a</a>)</span></p>
-=======
-</div><div class="footer">
-<p><span class="citation" data-cites="ponce2026">(<a href="#/references" role="doc-biblioref" onclick="">Ponce 2026</a>)</span></p>
-</div>
->>>>>>> Marion
-</div>
-</section>
-<section id="global-health-spending" class="slide level2">
-<h2>Global Health Spending</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
+</div></section><section id="who-global-health-expenditure-database" class="slide level2">
+<h2>WHO Global Health Expenditure Database</h2>
 <div class="fragment">
 <p>WHO Global Health Expenditure Database (TidyTuesday 2026, week 16)</p>
 </div>
+<div class="fragment">
 <ul>
-<li class="fragment">What the dataset is about
+<li>What the dataset is about
 <ol type="1">
-<li class="fragment">Health spending in 195 countries, 2000-2023</li>
-<li class="fragment">Who pays for health care: government, households or foreign aid</li>
+<li>Health spending in 195 countries, 2000-2023</li>
+<li>Who pays for health care: government, households or foreign aid</li>
 </ol></li>
-<li class="fragment">How it can be analysed
+<li>How it can be analysed
 <ol type="1">
-<li class="fragment">Scatter plot: government spending vs.&nbsp;what people pay themselves</li>
-<li class="fragment">Do people pay more when the government spends less?</li>
+<li>Scatter plot: government spending vs.&nbsp;what people pay themselves</li>
+<li>Do people pay more when the government spends less?</li>
 </ol></li>
 </ul>
-</div><div class="column" style="width:50%;">
+</div>
+</section>
+<section id="who-global-health-expenditure-database-1" class="slide level2">
+<h2>WHO Global Health Expenditure Database</h2>
 <div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href=""></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb5-2"><a href=""></a><span class="fu">library</span>(scales)</span>
+<span id="cb5-3"><a href=""></a><span class="fu">library</span>(ggrepel)</span>
+<span id="cb5-4"><a href=""></a><span class="fu">library</span>(patchwork)</span>
+<span id="cb5-5"><a href=""></a></span>
+<span id="cb5-6"><a href=""></a><span class="co"># 1. Les inn data</span></span>
+<span id="cb5-7"><a href=""></a>tt <span class="ot">&lt;-</span> tidytuesdayR<span class="sc">::</span><span class="fu">tt_load</span>(<span class="dv">2026</span>, <span class="at">week =</span> <span class="dv">16</span>)</span>
+<span id="cb5-8"><a href=""></a>health_spending   <span class="ot">&lt;-</span> tt<span class="sc">$</span>health_spending</span>
+<span id="cb5-9"><a href=""></a>financing_schemes <span class="ot">&lt;-</span> tt<span class="sc">$</span>financing_schemes</span>
+<span id="cb5-10"><a href=""></a></span>
+<span id="cb5-11"><a href=""></a>unit_pct <span class="ot">&lt;-</span> <span class="st">"% of current health expenditure"</span></span>
+<span id="cb5-12"><a href=""></a></span>
+<span id="cb5-13"><a href=""></a><span class="co"># 2. Panel A: siste tilgjengelige år per land</span></span>
+<span id="cb5-14"><a href=""></a>gov_data <span class="ot">&lt;-</span> health_spending <span class="sc">|&gt;</span></span>
+<span id="cb5-15"><a href=""></a>  <span class="fu">filter</span>(indicator_code <span class="sc">==</span> <span class="st">"gghed_che"</span>, unit <span class="sc">==</span> unit_pct) <span class="sc">|&gt;</span></span>
+<span id="cb5-16"><a href=""></a>  <span class="fu">group_by</span>(iso3_code, country_name) <span class="sc">|&gt;</span></span>
+<span id="cb5-17"><a href=""></a>  <span class="fu">slice_max</span>(year, <span class="at">n =</span> <span class="dv">1</span>, <span class="at">with_ties =</span> <span class="cn">FALSE</span>) <span class="sc">|&gt;</span></span>
+<span id="cb5-18"><a href=""></a>  <span class="fu">ungroup</span>() <span class="sc">|&gt;</span></span>
+<span id="cb5-19"><a href=""></a>  <span class="fu">select</span>(iso3_code, country_name, <span class="at">gghed_che =</span> value)</span>
+<span id="cb5-20"><a href=""></a></span>
+<span id="cb5-21"><a href=""></a>oop_data <span class="ot">&lt;-</span> financing_schemes <span class="sc">|&gt;</span></span>
+<span id="cb5-22"><a href=""></a>  <span class="fu">filter</span>(indicator_code <span class="sc">==</span> <span class="st">"hf3_che"</span>, unit <span class="sc">==</span> unit_pct) <span class="sc">|&gt;</span></span>
+<span id="cb5-23"><a href=""></a>  <span class="fu">group_by</span>(iso3_code) <span class="sc">|&gt;</span></span>
+<span id="cb5-24"><a href=""></a>  <span class="fu">slice_max</span>(year, <span class="at">n =</span> <span class="dv">1</span>, <span class="at">with_ties =</span> <span class="cn">FALSE</span>) <span class="sc">|&gt;</span></span>
+<span id="cb5-25"><a href=""></a>  <span class="fu">ungroup</span>() <span class="sc">|&gt;</span></span>
+<span id="cb5-26"><a href=""></a>  <span class="fu">select</span>(iso3_code, <span class="at">oops_che =</span> value)</span>
+<span id="cb5-27"><a href=""></a></span>
+<span id="cb5-28"><a href=""></a>scatter_data <span class="ot">&lt;-</span> gov_data <span class="sc">|&gt;</span></span>
+<span id="cb5-29"><a href=""></a>  <span class="fu">inner_join</span>(oop_data, <span class="at">by =</span> <span class="st">"iso3_code"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb5-30"><a href=""></a>  <span class="fu">drop_na</span>(gghed_che, oops_che) <span class="sc">|&gt;</span></span>
+<span id="cb5-31"><a href=""></a>  <span class="fu">filter</span>(gghed_che <span class="sc">+</span> oops_che <span class="sc">&lt;=</span> <span class="dv">115</span>) <span class="sc">|&gt;</span></span>
+<span id="cb5-32"><a href=""></a>  <span class="fu">mutate</span>(</span>
+<span id="cb5-33"><a href=""></a>    <span class="at">highlight =</span> <span class="fu">case_when</span>(</span>
+<span id="cb5-34"><a href=""></a>      oops_che <span class="sc">&gt;=</span> <span class="dv">55</span> <span class="sc">~</span> <span class="st">"high_oop"</span>,</span>
+<span id="cb5-35"><a href=""></a>      oops_che <span class="sc">&lt;=</span> <span class="dv">15</span> <span class="sc">&amp;</span> gghed_che <span class="sc">&gt;=</span> <span class="dv">60</span> <span class="sc">~</span> <span class="st">"protected"</span>,</span>
+<span id="cb5-36"><a href=""></a>      <span class="cn">TRUE</span> <span class="sc">~</span> <span class="st">"other"</span></span>
+<span id="cb5-37"><a href=""></a>    ),</span>
+<span id="cb5-38"><a href=""></a>    <span class="at">label =</span> <span class="fu">if_else</span>(iso3_code <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"AFG"</span>, <span class="st">"BGD"</span>, <span class="st">"NGA"</span>, <span class="st">"DEU"</span>, <span class="st">"USA"</span>),</span>
+<span id="cb5-39"><a href=""></a>                    country_name, <span class="cn">NA_character_</span>)</span>
+<span id="cb5-40"><a href=""></a>  )</span>
+<span id="cb5-41"><a href=""></a></span>
+<span id="cb5-42"><a href=""></a><span class="co"># 3. Panel B: globale medianer per år</span></span>
+<span id="cb5-43"><a href=""></a>trend_data <span class="ot">&lt;-</span> <span class="fu">bind_rows</span>(</span>
+<span id="cb5-44"><a href=""></a>  health_spending <span class="sc">|&gt;</span></span>
+<span id="cb5-45"><a href=""></a>    <span class="fu">filter</span>(indicator_code <span class="sc">==</span> <span class="st">"gghed_che"</span>, unit <span class="sc">==</span> unit_pct, year <span class="sc">&gt;=</span> <span class="dv">2000</span>) <span class="sc">|&gt;</span></span>
+<span id="cb5-46"><a href=""></a>    <span class="fu">group_by</span>(year) <span class="sc">|&gt;</span></span>
+<span id="cb5-47"><a href=""></a>    <span class="fu">summarise</span>(<span class="at">median_pct =</span> <span class="fu">median</span>(value, <span class="at">na.rm =</span> <span class="cn">TRUE</span>), <span class="at">.groups =</span> <span class="st">"drop"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb5-48"><a href=""></a>    <span class="fu">mutate</span>(<span class="at">series =</span> <span class="st">"gov"</span>),</span>
+<span id="cb5-49"><a href=""></a>  financing_schemes <span class="sc">|&gt;</span></span>
+<span id="cb5-50"><a href=""></a>    <span class="fu">filter</span>(indicator_code <span class="sc">==</span> <span class="st">"hf3_che"</span>, unit <span class="sc">==</span> unit_pct, year <span class="sc">&gt;=</span> <span class="dv">2000</span>) <span class="sc">|&gt;</span></span>
+<span id="cb5-51"><a href=""></a>    <span class="fu">group_by</span>(year) <span class="sc">|&gt;</span></span>
+<span id="cb5-52"><a href=""></a>    <span class="fu">summarise</span>(<span class="at">median_pct =</span> <span class="fu">median</span>(value, <span class="at">na.rm =</span> <span class="cn">TRUE</span>), <span class="at">.groups =</span> <span class="st">"drop"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb5-53"><a href=""></a>    <span class="fu">mutate</span>(<span class="at">series =</span> <span class="st">"oop"</span>)</span>
+<span id="cb5-54"><a href=""></a>)</span>
+<span id="cb5-55"><a href=""></a></span>
+<span id="cb5-56"><a href=""></a>cols <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="at">high_oop =</span> <span class="st">"#722F37"</span>, <span class="at">protected =</span> <span class="st">"#2E5A87"</span>, <span class="at">other =</span> <span class="st">"gray75"</span>,</span>
+<span id="cb5-57"><a href=""></a>          <span class="at">gov =</span> <span class="st">"#2E5A87"</span>, <span class="at">oop =</span> <span class="st">"#722F37"</span>)</span>
+<span id="cb5-58"><a href=""></a></span>
+<span id="cb5-59"><a href=""></a><span class="co"># 4. Plott A</span></span>
+<span id="cb5-60"><a href=""></a>p_scatter <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(scatter_data, <span class="fu">aes</span>(gghed_che, oops_che, <span class="at">color =</span> highlight)) <span class="sc">+</span></span>
+<span id="cb5-61"><a href=""></a>  <span class="fu">geom_abline</span>(<span class="at">slope =</span> <span class="sc">-</span><span class="dv">1</span>, <span class="at">intercept =</span> <span class="dv">100</span>, <span class="at">linetype =</span> <span class="st">"dashed"</span>, <span class="at">color =</span> <span class="st">"gray70"</span>) <span class="sc">+</span></span>
+<span id="cb5-62"><a href=""></a>  <span class="fu">geom_hline</span>(<span class="at">yintercept =</span> <span class="dv">40</span>, <span class="at">linetype =</span> <span class="st">"dotted"</span>, <span class="at">color =</span> <span class="st">"#722F37"</span>) <span class="sc">+</span></span>
+<span id="cb5-63"><a href=""></a>  <span class="fu">geom_point</span>(<span class="at">size =</span> <span class="dv">2</span>, <span class="at">alpha =</span> <span class="fl">0.8</span>) <span class="sc">+</span></span>
+<span id="cb5-64"><a href=""></a>  <span class="fu">geom_text_repel</span>(<span class="fu">aes</span>(<span class="at">label =</span> label), <span class="at">color =</span> <span class="st">"gray25"</span>, <span class="at">size =</span> <span class="dv">3</span>,</span>
+<span id="cb5-65"><a href=""></a>                  <span class="at">na.rm =</span> <span class="cn">TRUE</span>, <span class="at">seed =</span> <span class="dv">123</span>) <span class="sc">+</span></span>
+<span id="cb5-66"><a href=""></a>  <span class="fu">scale_color_manual</span>(<span class="at">values =</span> cols, <span class="at">guide =</span> <span class="st">"none"</span>) <span class="sc">+</span></span>
+<span id="cb5-67"><a href=""></a>  <span class="fu">scale_x_continuous</span>(<span class="at">limits =</span> <span class="fu">c</span>(<span class="dv">0</span>, <span class="dv">85</span>), <span class="at">labels =</span> <span class="fu">label_number</span>(<span class="at">suffix =</span> <span class="st">"%"</span>)) <span class="sc">+</span></span>
+<span id="cb5-68"><a href=""></a>  <span class="fu">scale_y_continuous</span>(<span class="at">limits =</span> <span class="fu">c</span>(<span class="dv">0</span>, <span class="dv">85</span>), <span class="at">labels =</span> <span class="fu">label_number</span>(<span class="at">suffix =</span> <span class="st">"%"</span>)) <span class="sc">+</span></span>
+<span id="cb5-69"><a href=""></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">"Government health spending (% of current health expenditure)"</span>,</span>
+<span id="cb5-70"><a href=""></a>       <span class="at">y =</span> <span class="st">"Out-of-pocket payments</span><span class="sc">\n</span><span class="st">(% of current health expenditure)"</span>) <span class="sc">+</span></span>
+<span id="cb5-71"><a href=""></a>  <span class="fu">theme_minimal</span>()</span>
+<span id="cb5-72"><a href=""></a></span>
+<span id="cb5-73"><a href=""></a><span class="co"># 5. Plott B</span></span>
+<span id="cb5-74"><a href=""></a>p_trend <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(trend_data, <span class="fu">aes</span>(year, median_pct, <span class="at">color =</span> series)) <span class="sc">+</span></span>
+<span id="cb5-75"><a href=""></a>  <span class="fu">annotate</span>(<span class="st">"rect"</span>, <span class="at">xmin =</span> <span class="fl">2019.5</span>, <span class="at">xmax =</span> <span class="fl">2021.5</span>, <span class="at">ymin =</span> <span class="sc">-</span><span class="cn">Inf</span>, <span class="at">ymax =</span> <span class="cn">Inf</span>,</span>
+<span id="cb5-76"><a href=""></a>           <span class="at">fill =</span> <span class="st">"gray90"</span>, <span class="at">alpha =</span> <span class="fl">0.5</span>) <span class="sc">+</span></span>
+<span id="cb5-77"><a href=""></a>  <span class="fu">geom_line</span>(<span class="at">linewidth =</span> <span class="fl">1.1</span>) <span class="sc">+</span></span>
+<span id="cb5-78"><a href=""></a>  <span class="fu">scale_color_manual</span>(</span>
+<span id="cb5-79"><a href=""></a>    <span class="at">values =</span> cols,</span>
+<span id="cb5-80"><a href=""></a>    <span class="at">labels =</span> <span class="fu">c</span>(<span class="at">gov =</span> <span class="st">"Government spending"</span>, <span class="at">oop =</span> <span class="st">"Out-of-pocket payments"</span>),</span>
+<span id="cb5-81"><a href=""></a>    <span class="at">name =</span> <span class="cn">NULL</span></span>
+<span id="cb5-82"><a href=""></a>  ) <span class="sc">+</span></span>
+<span id="cb5-83"><a href=""></a>  <span class="fu">scale_y_continuous</span>(<span class="at">labels =</span> <span class="fu">label_number</span>(<span class="at">suffix =</span> <span class="st">"%"</span>)) <span class="sc">+</span></span>
+<span id="cb5-84"><a href=""></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">"Year"</span>, <span class="at">y =</span> <span class="st">"Global median (% of current health expenditure)"</span>) <span class="sc">+</span></span>
+<span id="cb5-85"><a href=""></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
+<span id="cb5-86"><a href=""></a>  <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="st">"bottom"</span>)</span>
+<span id="cb5-87"><a href=""></a></span>
+<span id="cb5-88"><a href=""></a><span class="co"># 6. Sett sammen</span></span>
+<span id="cb5-89"><a href=""></a>p_scatter <span class="sc">+</span> p_trend <span class="sc">+</span></span>
+<span id="cb5-90"><a href=""></a>  <span class="fu">plot_layout</span>(<span class="at">widths =</span> <span class="fu">c</span>(<span class="fl">1.4</span>, <span class="dv">1</span>)) <span class="sc">+</span></span>
+<span id="cb5-91"><a href=""></a>  <span class="fu">plot_annotation</span>(</span>
+<span id="cb5-92"><a href=""></a>    <span class="at">title =</span> <span class="st">"Where Governments Spend Less, Households Spend More"</span>,</span>
+<span id="cb5-93"><a href=""></a>    <span class="at">caption =</span> <span class="st">"Source: WHO GHED via TidyTuesday 2026 week 16. Adapted from Ponce (2026)."</span></span>
+<span id="cb5-94"><a href=""></a>  )</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+
+<div class="fragment">
+<p><span class="citation" data-cites="ponce2026">Ponce (<a href="#/references" role="doc-biblioref" onclick="">2026</a>)</span> finds that households pay more where governments spend less.</p>
+</div>
+</section>
+<section id="who-global-health-expenditure-database-1-output" class="slide level2 output-location-slide"><h2>WHO Global Health Expenditure Database</h2><div class="cell output-location-slide">
 <div class="cell-output-display">
 <div>
 <figure>
-<p><img data-src="Ass2h26_files/figure-revealjs/unnamed-chunk-2-1.png" width="1152"></p>
+<p><img data-src="Ass2h26_files/figure-revealjs/unnamed-chunk-5-1.png" width="1920"></p>
 </figure>
 </div>
 </div>
-</div>
-<div class="fragment">
-<p>Ponce (2026) finds that households pay more where governments spend less.</p>
-</div>
-<div class="footer">
-<p><span class="citation" data-cites="ponce2026">Ponce (<a href="#/references" role="doc-biblioref" onclick="">2026b</a>)</span></p>
-</div>
-</div></div>
-</section>
-<section id="conclusions" class="slide level2">
+</div></section><section id="conclusions" class="slide level2">
 <h2>Conclusions</h2>
 <ul>
 <li class="fragment"><p>hhhh</p></li>
@@ -406,23 +559,12 @@ Group 5; Maa, Em and Mfe
 <section id="references" class="slide level2 smaller scrollable">
 <h2>References</h2>
 
-<div id="refs" class="references csl-bib-body hanging-indent" role="list">
-<<<<<<< HEAD
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
 <div id="ref-arroyo2022" class="csl-entry" role="listitem">
-Arroyo, Isaac. 2022. <span>“Explaining My Favourite #<span>TidyTuesday Projects</span>.”</span> Towards Data Science, September 12. <a href="https://towardsdatascience.com/explaining-my-favourite-tidytuesday-projects-e44bfe988813/">https://towardsdatascience.com/explaining-my-favourite-tidytuesday-projects-e44bfe988813/</a>.
-</div>
-<div id="ref-ponceBiblicalCanonTells2026" class="csl-entry" role="listitem">
-Ponce, Steven. 2026a. <span>“<span>The Biblical Canon Tells Only Part of the Story</span>.”</span> In <em>Steven Ponce</em>. Https://stevenponce.netlify.app/data_visualizations/TidyTuesday/2026/tt_2026_37.html.
+Arroyo, Isaac. 2022. <span>“Explaining My Favourite #<span>TidyTuesday Projects</span>.”</span> Towards Data Science. September 12, 2022. <a href="https://towardsdatascience.com/explaining-my-favourite-tidytuesday-projects-e44bfe988813/">https://towardsdatascience.com/explaining-my-favourite-tidytuesday-projects-e44bfe988813/</a>.
 </div>
 <div id="ref-ponce2026" class="csl-entry" role="listitem">
-Ponce, Steven. 2026b. <span>“Where Governments Spend Less, Households Spend More.”</span> Steven Ponce, April 18. <a href="https://stevenponce.netlify.app/data_visualizations/TidyTuesday/2026/tt_2026_16.html#fig-1">https://stevenponce.netlify.app/data_visualizations/TidyTuesday/2026/tt_2026_16.html#fig-1</a>.
-</div>
-<div id="ref-RfordatascienceTidytuesday2026" class="csl-entry" role="listitem">
-<em>Rfordatascience/Tidytuesday</em>. 2026. Data Science Learning Community.
-=======
-<div id="ref-ponce2026" class="csl-entry" role="listitem">
-Ponce, Steven. 2026. <span>“Some Country Producers Stick with One Artist. <span>Others</span> Work Across the Genre.”</span> Steven Ponce, August 22. <a href="https://stevenponce.netlify.app/data_visualizations/TidyTuesday/2026/tt_2026_34.html">https://stevenponce.netlify.app/data_visualizations/TidyTuesday/2026/tt_2026_34.html</a>.
->>>>>>> Marion
+Ponce, Steven. 2026. <span>“Some Country Producers Stick with One Artist. <span>Others</span> Work Across the Genre.”</span> Steven Ponce. August 22, 2026. <a href="https://stevenponce.netlify.app/data_visualizations/TidyTuesday/2026/tt_2026_34.html">https://stevenponce.netlify.app/data_visualizations/TidyTuesday/2026/tt_2026_34.html</a>.
 </div>
 </div>
 </section>
